@@ -3,12 +3,12 @@
 ## Team Information
 
 - Team name: [Team name] (coz why not? ^_^)
-- Working arrangement: [Laboratory, personal computers, or mixed]
-- Coordination method: [In-person discussion, group call, shared document, etc.]
+- Working arrangement: Personal Computers
+- Coordination method: Group Chat
 
 | Member | GitHub username | Personal CSC181 repository |
 |---|---|---|
-| [Full name] | [Username] | [Repository link] |
+| Juniezsa Cassandra C. Bacus | fried.ShangHai | https://github.com/Juniezsa/CSC181.git |
 | [Full name] | [Username] | [Repository link] |
 | [Full name] | [Username] | [Repository link] |
 | [Full name] | [Username] | [Repository link] |
@@ -23,7 +23,12 @@ or an assumption.]
 
 | Member | Problem or inconvenience | Who experiences it? | Current approach | Basis of the idea |
 |---|---|---|---|---|
-| [Name] | [Idea 1] | [Group] | [Approach] | [Basis] |
+| Juniezsa Cassandra C. Bacus | People do not know when and if there is still jeepneys available that goes in a specific route | Commuters | Go to the area that jeepneys ally and find out if there are still jeepneys around | [Basis] |
+| Juniezsa Cassandra C. Bacus | The availability of large space (e.g. gym, basketball court, plaza) is  | [Group] | [Approach] | [Basis] |
+| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
+| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
+| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
+| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
 | [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
 
 ## 2. Candidate Comparison and Selection
