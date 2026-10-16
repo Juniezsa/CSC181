@@ -25,11 +25,11 @@ or an assumption.]
 |---|---|---|---|---|
 | Juniezsa Cassandra C. Bacus | People do not know when and if there is still jeepneys available that goes in a specific route. People have to make haste of what they're doing to just catch the jeep but in the end there are still tons of jeep available or people thought there is still jeepneys available but in the end there are non. | Commuters | Go to the area that jeepneys ally and find out if there are still jeepneys around | Personal Experience, Direct Observation |
 | Juniezsa Cassandra C. Bacus | The availability of large spaces (e.g. gym, basketball court, plaza) in Iligan is limited. Finding an area to practice or hold a meeting is hard for students and performers especially when its project/competition season. This results to wasted time and sometimes not finding an area to practice | Students and Performers | Go to the area to find out if it is full, have someone check it, or remember if a group already "claimed" the area for their practices | Personal Experience, Direct Observation |
-| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
-| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
-| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
-| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
-| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
+| Jeric I. Balos | Real estate transactions rely heavily on word of mouth recommendations, leading to limited reach and biased advice | Property Sellers/Buyers | Buyers rely on personal connections and inquiring in neighborhoods, while the sellers depend on spreading news through referrals | Personal Experience/ Observation |
+| Jeric I. Balos |  Home-based caterers and platter businesses lack a dedicated platform to showcase fixed-portion menus, manage advance pre-orders, and secure upfront deposits automatically | Food Platter Vendors and Customers | Sellers rely on Facebook page posts, Messenger DMs and manual calendar tracking, leading to double bookings and lost order details |Personal Experience, Direct Observation |
+| Sammy R. Ditanongun | Treasurers may struggle to know who has paid because records are in messages, spreadsheets and paper. | Treasurers and Student Council members | Google Forms | Student Council Fees |
+| Sammy R. Ditanongun | Sari-sari store owners may lose track of who owes what because balances are kept in notebooks. | store owners and customers |  Notebooks/Written |  Observation|
+| Sammy R. Ditanongun | Students may miss or crunch deadlines because assignments, quizzes and project dates are announced across several group chats, during lectures, Google Classroom, or MOLE with no single view of how heavy a given week is. | Students, class officers, instructors of IIT | The current approach involves announcements through group chats in messenger | Observation on our block  |
 | [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
 
 
