@@ -2,15 +2,15 @@
 
 ## Team Information
 
-- Team name: [Team name] (coz why not? ^_^)
+- Team name: RENEview ba (coz why not? ^_^)
 - Working arrangement: Personal Computers
-- Coordination method: Group Chat
+- Coordination method: Group Chat, Google docs
 
 | Member | GitHub username | Personal CSC181 repository |
 |---|---|---|
 | Juniezsa Cassandra C. Bacus | fried.ShangHai | https://github.com/Juniezsa/CSC181.git |
-| [Full name] | [Username] | [Repository link] |
-| [Full name] | [Username] | [Repository link] |
+| Sammy R. Ditanongun | slyoh26 | https://github.com/slyoh26/CSC181.git |
+| Jeric I. Balos | JekoBot | https://github.com/JekoBot/CSC181 |
 | [Full name] | [Username] | [Repository link] |
 
 <!-- Add rows for all members. -->
@@ -23,13 +23,15 @@ or an assumption.]
 
 | Member | Problem or inconvenience | Who experiences it? | Current approach | Basis of the idea |
 |---|---|---|---|---|
-| Juniezsa Cassandra C. Bacus | People do not know when and if there is still jeepneys available that goes in a specific route | Commuters | Go to the area that jeepneys ally and find out if there are still jeepneys around | [Basis] |
-| Juniezsa Cassandra C. Bacus | The availability of large space (e.g. gym, basketball court, plaza) is  | [Group] | [Approach] | [Basis] |
+| Juniezsa Cassandra C. Bacus | People do not know when and if there is still jeepneys available that goes in a specific route. People have to make haste of what they're doing to just catch the jeep but in the end there are still tons of jeep available or people thought there is still jeepneys available but in the end there are non. | Commuters | Go to the area that jeepneys ally and find out if there are still jeepneys around | Personal Experience, Direct Observation |
+| Juniezsa Cassandra C. Bacus | The availability of large spaces (e.g. gym, basketball court, plaza) in Iligan is limited. Finding an area to practice or hold a meeting is hard for students and performers especially when its project/competition season. This results to wasted time and sometimes not finding an area to practice | Students and Performers | Go to the area to find out if it is full, have someone check it, or remember if a group already "claimed" the area for their practices | Personal Experience, Direct Observation |
 | [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
 | [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
 | [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
 | [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
 | [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
+| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
+
 
 ## 2. Candidate Comparison and Selection
 
