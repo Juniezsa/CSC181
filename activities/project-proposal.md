@@ -11,7 +11,7 @@
 | Juniezsa Cassandra C. Bacus | fried.ShangHai | https://github.com/Juniezsa/CSC181.git |
 | Sammy R. Ditanongun | slyoh26 | https://github.com/slyoh26/CSC181.git |
 | Jeric I. Balos | JekoBot | https://github.com/JekoBot/CSC181 |
-| [Full name] | [Username] | [Repository link] |
+| Amil H. Popawan | amillionaire | https://github.com/amillionaire/-CSC181 |
 
 <!-- Add rows for all members. -->
 
@@ -30,7 +30,8 @@ or an assumption.]
 | Sammy R. Ditanongun | Treasurers may struggle to know who has paid because records are in messages, spreadsheets and paper. | Treasurers and Student Council members | Google Forms | Student Council Fees |
 | Sammy R. Ditanongun | Sari-sari store owners may lose track of who owes what because balances are kept in notebooks. | store owners and customers |  Notebooks/Written |  Observation|
 | Sammy R. Ditanongun | Students may miss or crunch deadlines because assignments, quizzes and project dates are announced across several group chats, during lectures, Google Classroom, or MOLE with no single view of how heavy a given week is. | Students, class officers, instructors of IIT | The current approach involves announcements through group chats in messenger | Observation on our block  |
-| [Name] | [Idea 2] | [Group] | [Approach] | [Basis] |
+| Amil H. Popawan | Local second-hand book and study material sellers (students and alumni) struggle to reach target buyers within the campus community, leading to unused textbooks piling up or being sold at unfair scrap prices. | College students, alumni, and incoming freshmen | Posting on active Facebook Buy/Sell groups, Messenger chats, or asking friends directly | Personal Experience, Direct Observation |
+| Amil H. Popawan | Boarding house and apartment seekers in Iligan find it difficult to check available rooms, rental rates, and amenities without manually walking around barangays or relying on outdated Facebook posts. | Students, young professionals, and transferees | Physically visiting neighborhoods to look for "Room Available" signages or posting inquiries in general local Facebook groups | Personal Experience, Direct Observation |
 
 
 ## 2. Candidate Comparison and Selection
