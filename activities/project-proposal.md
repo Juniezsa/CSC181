@@ -75,12 +75,12 @@ Anticipated needs are not confirmed feedback.]
 
 | Stakeholder role/group | Relationship to the project | Likely need or concern | Question to ask | Possible consultation method |
 |---|---|---|---|---|
-| [Stakeholder 1] | [Relationship] | [Need/concern] | [Question] | [Method] |
-| [Stakeholder 2] | [Relationship] | [Need/concern] | [Question] | [Method] |
-| [Stakeholder 3] | [Relationship] | [Need/concern] | [Question] | [Method] |
-| [Stakeholder 4] | [Relationship] | [Need/concern] | [Question] | [Method] |
+| Students | Primary End User | Uses the channel to track down and be updated of their exam, quiz, and activity deadlines | How do you keep updated and track your deadlines? | Interview and Observation |
+| Block Representative | Second User/ Operator | A channel to input the data (e.g. deadline, type of deadline, where to pass) only in the block channel | How do you announce the deadlines and where do you get the information from? | Interview and Observation |
+| Instructor | Operator/ Regulator/ Partner | Concern: Has to use 2 or more channels for their announcement, upload files, assignments, and another just for the deadline tracker | How and What platforms do you use to announce the activities, exams, and quizzes? | Interview and Observation |
+| Student Council/Society Officers | Operator | What and how many platforms do you use to announce events and important matters? | [Question] | Interview and Observation |
 
-Stakeholder-count explanation, if needed: [Explanation or Not applicable.]
+Stakeholder-count explanation, if needed: There are only four stakeholders that are mentioned these are the people that are primarily the target audience/users for the project, which focuses on tracking events, activity, quiz, and exam.
 
 ## 5. Initial Scope
 
