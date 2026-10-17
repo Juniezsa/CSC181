@@ -57,17 +57,15 @@ We have selected the “Study and Assignment tracker for a class.”
 
 ### Working project title
 
-[Short, descriptive title]
+PounceBoard
 
 ### Problem statement
 
-[Write 100–150 words. Identify the affected users, context, current approach,
-difficulty, consequences, desired improvement, and assumptions requiring validation.]
+Due dates for quizzes, reports, and group projects are announced through multiple channels, such as MOLE, subject group chats, and in-class reminders, which may make it difficult for MSU-IIT students in a class section/block to stay updated. At the moment, block representatives communicate updates via message, and students rely on their own notes, screenshots, and memory. This could sometimes result in weeks when multiple demanding requirements or exams fall at the same time without anyone realizing it until the last minute, some missed submissions, cramming of activities resulting in a poor output across different subjects. Sudden changes in schedules also happen on a short notice. For example, a sudden shift to asynchronous or an open lab schedule will be notified to the members of the shared board. The team still needs to confirm how students currently track deadlines, and what MOLE does not already show.
 
 ### Proposed solution
 
-[Write one short paragraph describing your proposed digital solution
-and how it addresses the problem.]
+Our proposed solution is a shared tracker for deadlines, exams, and other important information that needs to be announced. An app that is like google calendar, tasks, and classroom combined. Block representatives create a section board, and add deadlines, exams, and announcements with the subject, type, and weight of each item. The members can confirm or report the announcement for any discrepancies. The app shows everything in a calendar and task view, so students can see what is due and mark items as done. It also shows a weekly workload view that flags weeks where several heavy requirements pile up, so students can plan earlier and officers can raise conflicts with instructors. Unlike MOLE, which only lists a single course’s activities, the board gathers dates from all of a section’s subjects, including those announced only in group chats, in one place.
 
 ## 4. Stakeholder List
 
