@@ -86,29 +86,34 @@ Stakeholder-count explanation, if needed: There are only four stakeholders that 
 
 ### Intended users and setting
 
-[Specify who will use the system and where or in what context it will operate.]
+The primary users/stakeholders will be the students and block representatives who will be using the platform daily to check the changes in their schedule, with the block representative having the additional use of being able to disseminate the information to their peers. They will be the most affected by the app and will benefit the most. Our second shareholders will be the professors, student councils, and society officers as they will be the users posting the various announcements on the platform. It is also possible for the block representatives to take on the role of posting the announcements for their class as admin within their block in case it was originally posted outside the platform. The setting and operation of the platform will be within the MSU-IIT academic environment and will be accessible on mobile and web based application used on smartphones and laptops during and outside of daily class operations
 
 ### In-scope capabilities
 
 [Describe 3–5 specific capabilities as actions users can perform.]
 
-1. [Capability 1]
-2. [Capability 2]
-3. [Capability 3]
+1. Users can view a dynamic weekly schedule that updates with announcements that entail a change in schedule. This will make it easier to anticipate heavy workload periods and make it easier to spot free schedules during a particular class.
+2. Users can create dedicated spaces for themselves. An example of this would be a block representative creating a space that only their blockmates can join. 
+3. Block representatives can post announcements or deadlines with its subject, type (quiz, exam, report, group project) and a weight (light, medium, heavy). Block representatives may also assign additional members to post these deadlines when he’s not available.
+4. Students may join a society depending on their college and announcements from that society will also be reflected in the app.
 
 ### Out-of-scope capabilities
 
 [Identify at least three features, integrations, services, or settings
 excluded from this semester's version.]
 
-1. [Exclusion 1]
-2. [Exclusion 2]
-3. [Exclusion 3]
+1. MOLE integration would be hard since the team would need to have permission to automatically pull deadlines from the website.
+2. Grade tracking or grade calculation will not be part of this app as they are personal datas.
+3. Group chat or messaging features will not be included as this will just duplicate messenger.
 
 ### Expected deliverables
 
-[List the planned outputs, such as a working prototype, documentation,
-and testing evidence.]
+1. Working prototype of PounceBoard.
+2. Demo data to test the app's features. Using fictional subjects, deadlines section/block members etc.
+3. Source code in the team's repository.
+4. User documentation, a short guide for how to use the app.
+5. Testing of the in-scope capabilities, plus a small usability test with classmates.
+6. Final presentation of demo.
 
 ### Constraints
 
@@ -116,8 +121,9 @@ and testing evidence.]
 
 | Constraint | Effect on the project | How the team will respond |
 |---|---|---|
-| [Constraint 1] | [Effect] | [Response] |
-| [Constraint 2] | [Effect] | [Response] |
+| Time and work pressure | The team may not be able to build every feature it can think of. And busy weeks with exams or other activities from other subjects may hinder the project’s progress | Build the core features first (board creation, weighted deadlines, workload view) and treat extra features such as reminders and calendar export as optional. Set weekly checkpoints to track the progress effectively and track delays.  |
+| Limited access to MOLE and school systems  | The app cannot pull deadlines automatically, so every entry has to be typed in by users.  | Keep MOLE integration out of scope, and make adding a deadline quick (few fields, sensible defaults). Add the confirm-or-correct feature so the section can catch mistakes. |
+| Team skills are limited and still developing/learning | Implementing some of the technologies or features may take longer than usual since the team is still learning it. | Use tools that the team is familiar with and split the tasks by each member’s strengths and weaknesses. Build a simple version of the app first with the core features. |
 
 ### Assumptions and dependencies
 
@@ -135,8 +141,8 @@ Do not report results that have not been collected.]
 
 | Success indicator | Proposed evaluation method |
 |---|---|
-| [Indicator 1] | [Method] |
-| [Indicator 2] | [Method] |
+| The weekly workload view correctly flags busy weeks, and users understand the warning.  | Load the demo dataset with weeks you already know are heavy (for example, a quiz, a report, and a group project due in the same week) and weeks that are light. Check if the app flags the heavy weeks and not the light ones. Then ask testers to explain in their own words what the warning means, and note any confusion.  |
+| A student can find everything due this week, across all subjects, from the prototype without searching group chats or MOLE.  | Test the app with 5-8 users, have them use a fictional section/block board and ask them to list the week’s deadlines using only the app. Record whether each one finds all items correctly and how long it takes, then compare against how long it takes them to find the same information in their usual way.   |
 
 ## 6. Review and Next Steps
 
