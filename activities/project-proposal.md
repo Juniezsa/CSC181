@@ -78,7 +78,7 @@ Anticipated needs are not confirmed feedback.]
 | Students | Primary End User | Uses the channel to track down and be updated of their exam, quiz, and activity deadlines | How do you keep updated and track your deadlines? | Interview and Observation |
 | Block Representative | Second User/ Operator | A channel to input the data (e.g. deadline, type of deadline, where to pass) only in the block channel | How do you announce the deadlines and where do you get the information from? | Interview and Observation |
 | Instructor | Operator/ Regulator/ Partner | Concern: Has to use 2 or more channels for their announcement, upload files, assignments, and another just for the deadline tracker | How and What platforms do you use to announce the activities, exams, and quizzes? | Interview and Observation |
-| Student Council/Society Officers | Operator | What and how many platforms do you use to announce events and important matters? | [Question] | Interview and Observation |
+| Student Council/Society Officers | Operator | A channel/platform that reaches each student in the college to announce events and important matters | What and how many platforms do you use to announce events and important matters?| Interview and Observation |
 
 Stakeholder-count explanation, if needed: There are only four stakeholders that are mentioned these are the people that are primarily the target audience/users for the project, which focuses on tracking events, activity, quiz, and exam.
 
@@ -131,8 +131,8 @@ excluded from this semester's version.]
 
 | Assumption or dependency | Why it matters | How to check or address it |
 |---|---|---|
-| [Item 1] | [Importance] | [Check/action] |
-| [Item 2] | [Importance] | [Check/action] |
+| MOLE, group chats, and in-class announcements make it difficult for students to stay on top of deadlines. | The app depends on the assumption that students have a hard time checking or keeping up-to-date with deadlines, and announcements. If not, there is no problem to be solved by the tracker/app.| Ask 5-8 blockmates how often they miss announcements or are surprised by one. |
+| Not all announcements or deadlines are posted via MOLE | This assumes that not everything is posted in MOLE. If it is already posted in MOLE, then the app serves no purpose since MOLE displays the deadlines but with lacking features | Check if all subjects use MOLE to post their announcements, deadlines, or activities. |
 
 ### Success indicators
 
@@ -148,19 +148,19 @@ Do not report results that have not been collected.]
 
 ### Change made after reviewing the proposal
 
-- Before review: [Original idea or scope]
-- After review: [Revised idea or scope]
-- Reason: [Why the change improves clarity, feasibility, or usefulness]
+- Before review: An assignment, project, quiz tracker.
+- After review: Expanded into a shared block board featuring a weighted weekly workload view, calendar view, schedule change updates, and society-level announcement integration.
+- Reason: Focusing solely on a simple deadline checklist overlaps too heavily with existing personal task apps. Adding a section-wide shared board with dynamic workload indicators directly solves the issue of overlapping heavy deadlines across subjects while giving block representatives a single point of truth.
 
 ### Biggest remaining risk
 
-[Identify the assumption, dependency, or limitation that could most affect the project.]
+Data accuracy and adoption risk. Since automatic integration with MOLE and Google Classroom is currently out of scope due to access permissions, the system relies entirely on block representatives and students to manually input and maintain deadline data accurately and promptly.
 
 ### Three unanswered questions
 
-1. [Question 1]
-2. [Question 2]
-3. [Question 3]
+1. What specific features or announcement types exist in group chats and in-class announcements that MOLE fails to capture or organize effectively?
+2. How do instructors and block representatives currently handle sudden schedule changes (e.g., unexpected shifts to asynchronous classes or open lab times), and what is the fastest way for them to broadcast these updates in the app?
+3. What threshold or algorithm should be used to define a "heavy workload week" when weighting different assignments, quizzes, and projects?
 
 ## 7. Member Contribution Record
 
@@ -180,7 +180,7 @@ drafting, checking feasibility, and reviewing the final document.]
 
 Select one option:
 
-- [ ] No generative AI tools were used by any member in preparing this submission.
+- [x] No generative AI tools were used by any member in preparing this submission.
 - [ ] One or more members used generative AI tools. Details are provided below.
 
 [If AI was used, complete the table. If not, write Not applicable.]
@@ -211,9 +211,9 @@ upload the same Markdown file to their personal CSC181 repository.
 
 ## Submission Checklist
 
-- [ ] Each member contributed at least two problem ideas.
-- [ ] Three candidate problems were compared.
-- [ ] The selection rationale is included.
+- [x] Each member contributed at least two problem ideas.
+- [x] Three candidate problems were compared.
+- [x] The selection rationale is included.
 - [ ] The problem statement contains 100–150 words.
 - [ ] The proposed solution is included.
 - [ ] Relevant stakeholders and consultation questions are identified.
