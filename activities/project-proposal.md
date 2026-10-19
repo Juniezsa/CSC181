@@ -2,7 +2,7 @@
 
 ## Team Information
 
-- Team name: RENEview ba (coz why not? ^_^)
+- Team name: RENEview
 - Working arrangement: Personal Computers
 - Coordination method: Group Chat, Google docs
 
@@ -169,8 +169,10 @@ drafting, checking feasibility, and reviewing the final document.]
 
 | Member | Ideas or analysis contributed | Drafting or review contribution |
 |---|---|---|
-| [Name] | [Contribution] | [Contribution] |
-| [Name] | [Contribution] | [Contribution] |
+| Jeric I. Balos | Contributed two ideas listed above and participated in discussions regarding the final decision of the selection of the final problem, weighing its pros and cons compared to the other ideas listed. | Handled the writing of the proposed user and setting section of the paper, as well as added some of the capabilities a user can perform on the app. |
+| Juniezsa Cassandra C. Bacus | Contributed two ideas for the selection and discussions for the final 3 decision and final final decision. Expanded the scope of the final problem, to include the weekly calendar. | Stakeholder List |
+| Sammy R. Ditanongun | Contributed app ideas, Expanded the shortlisted problem that was then picked as the main app. Worked on the constraints, In&out scope, expected deliverables, constraints, assumptions, and success indicators. | Contributed ideas. |
+| Amil H. Popawan | Contributed two problems to be used for the proposal | |
 
 ## 8. References
 
@@ -185,9 +187,7 @@ Select one option:
 
 [If AI was used, complete the table. If not, write Not applicable.]
 
-| Member who used AI | Tool | Purpose and sections assisted | How output was checked or revised |
-|---|---|---|---|
-| [Name] | [Tool] | [Purpose/sections] | [Review process] |
+Not applicable
 
 ### Main prompts or interaction summary
 
@@ -206,22 +206,24 @@ upload the same Markdown file to their personal CSC181 repository.
 
 | Member | Reviewed final version |
 |---|---|
-| [Name] | [Yes/No] |
-| [Name] | [Yes/No] |
+| Jeric I. Balos | Yes |
+| Jay Amil Popawan | “Yes” |
+| Sammy R. Ditanongun | Yes |
+| Juniezsa Cassandra C. Bacus | Yes |
 
 ## Submission Checklist
 
 - [x] Each member contributed at least two problem ideas.
 - [x] Three candidate problems were compared.
 - [x] The selection rationale is included.
-- [ ] The problem statement contains 100–150 words.
-- [ ] The proposed solution is included.
-- [ ] Relevant stakeholders and consultation questions are identified.
-- [ ] The scope contains 3–5 capabilities and at least three exclusions.
-- [ ] Constraints, assumptions, and success indicators are included.
-- [ ] A review change and three unanswered questions are documented.
-- [ ] Contributions, references, and AI use are declared.
-- [ ] All members reviewed the same final document.
-- [ ] Each member saved the file as `activities/project-proposal.md`.
-- [ ] Each member committed and pushed their copy to their personal repository.
-- [ ] Each member submitted their own GitHub file link through MOLE.
+- [x] The problem statement contains 100–150 words.
+- [x] The proposed solution is included.
+- [x] Relevant stakeholders and consultation questions are identified.
+- [x] The scope contains 3–5 capabilities and at least three exclusions.
+- [x] Constraints, assumptions, and success indicators are included.
+- [x] A review change and three unanswered questions are documented.
+- [x] Contributions, references, and AI use are declared.
+- [x] All members reviewed the same final document.
+- [x] Each member saved the file as `activities/project-proposal.md`.
+- [x] Each member committed and pushed their copy to their personal repository.
+- [x] Each member submitted their own GitHub file link through MOLE.
