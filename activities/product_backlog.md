@@ -2,19 +2,21 @@
 
 ## Team Information
 
-- Team name: [Team name]
-- Project title: [Working project title]
-- Primary user group for the first release: [One user group]
-- Format: [User stories with one use case / Use cases with acceptance criteria]
+- Team name: RENEview ba?
+- Project title: PounceBoard
+- Primary user group for the first release: Students belonging to an MSU-IIT class section or block
+- Format: User stories with one detailed use case and testable acceptance criteria
 
 | Member | GitHub username | Personal CSC181 repository |
 |---|---|---|
-| [Full name] | [Username] | [Repository link] |
-| [Full name] | [Username] | [Repository link] |
-| [Full name] | [Username] | [Repository link] |
-| [Full name] | [Username] | [Repository link] |
+| Juniezsa Cassandra C. Bacus | fried.ShangHai| https://github.com/Juniezsa/CSC181.git |
+| Sammy R. Ditanongun | slyoh26 | https://github.com/slyoh26/CSC181.git |
+| Jeric I. Balos | JekoBot | https://github.com/JekoBot/CSC181.git |
+| Amil H. Popawan | amillionaire | https://github.com/amillionaire/-CSC181 |
 
 <!-- Add rows for all members. -->
+
+**Completion note**: The interview log and proposal do not provide interview dates or the names of the team members who conducted each interview. These details are marked **To be supplied by the team** instead of being invented. The same applies to stakeholder validation that is not documented in the supplied files.
 
 ## 1. Interview Summary
 
