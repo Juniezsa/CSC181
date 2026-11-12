@@ -23,24 +23,24 @@
 The team gathered input from students, block representatives, and a student organization officer. The interviews show that students currently use several channels to receive announcements and maintain separate personal reminders. Block representatives act as intermediaries between instructors and students, and they sometimes need to repeat or correct information. The student organization officer described how announcements are distributed through Messenger, Facebook, and, for some CS announcements, Discord.
 
 | Code | Stakeholder role | Date | Method | Interviewer(s) |
-|---|---|---|---|---|
-| V1 | Block representative, 3rd-year BA-FIL | Not stated | Written interview | To be supplied by the team |
-| V2 | Student organization officer / vice mayor | Not stated | Written interview | To be supplied by the team |
-| S1 | Student, 1st-year BS Biology (Microbiology) | Not stated | Written interview | To be supplied by the team |
-| S2 | Student, 3rd-year BS Environmental Engineering | Not stated | Written interview | To be supplied by the team |
-| S3 | Student, 4th-year BS ANBIO | Not stated | Written interview | To be supplied by the team |
-| S4 | Student, 2nd-year BSEd Physics | Not stated | Written interview | To be supplied by the team |
-| V3 | Block representative | Not stated | Written interview | To be supplied by the team |
-| S5 | Senior CS student | Not stated | Written interview | To be supplied by the team |
+| :---- | :---- | :---- | :---- | :---- |
+| V1 | Block representative, 3rd-year BA-FIL | 11/6/26 | Chat interview | Jeric I. Balos |
+| V2 | Student organization officer / vice mayor | 11/7/26 | Chat interview | Jeric I. Balos |
+| S1 | Student, 1st-year BS Biology (Microbiology) | 11/7/26 | Chat interview | Juniezsa Cassandra C. Bacus |
+| S2 | Student, 3rd-year BS Environmental Engineering | 11/7/26 | Chat interview | Juniezsa Cassandra C. Bacus |
+| S3 | Student, 4th-year BS ANBIO | 11/7/26 | Chat interview | Juniezsa Cassandra C. Bacus |
+| S4 | Student, 2nd-year BSEd Physics | 11/7/26  | Chat interview | Juniezsa Cassandra C. Bacus |
+| V3 | Block representative | 10/26/26 | Chat interview | Sammy R. DItanongun |
+| S5 | Senior CS student | 11/8/26 | Chat interview | Juniezsa Cassandra C. Bacus |
 
 **Interview coverage:** The log contains at least two stakeholder groups: students and block representatives. It also includes a student organization officer. Instructor announcements are discussed by interviewees, but the log does not contain a separately identified instructor interview. The team should not describe instructors as directly interviewed unless another interview record exists.
 
-## 2. From Interview Notes to Needs
+## 2\. From Interview Notes to Needs
 
 The findings below separate what interviewees said from the needs inferred by the team. The requirement ideas are proposed system behavior, not claims that the interviewees requested every exact feature.
 
 | ID | Source | What we heard or saw | Underlying need | Requirement idea | Type |
-|---|---|---|---|---|---|
+| :---- | :---- | :---- | :---- | :---- | :---- |
 | F1 | V1, V3 | Block representatives receive information from instructors through class discussions, group chats, Gchat, email, and MOLE, then relay it to their blockmates. | A section needs one shared place where information from different announcement channels can be collected. | The system shall let an authorized block representative create and publish a section announcement or deadline entry. | F |
 | F2 | S1, S2, S3, S4, S5 | Students use different combinations of Google Classroom, MOLE, Gmail/Gchat, Messenger, university websites, and personal notes. Several students said they check more than one platform. | Students need a consolidated view so they do not have to switch between several platforms just to check upcoming requirements. | The system shall display deadlines and announcements from the section's subjects in one section board. | F |
 | F3 | S1, S2, S3, S4 | Students use physical checklists, phone reminders, notes, notebooks, and calendars to remember deadlines. One student nearly missed a deadline after confusing this Friday with the following Friday. | Students need clear dates and a reliable way to review upcoming work. | Each entry shall display its title, subject, type, and due date and time, and shall be available in a calendar or task view. | F |
@@ -52,14 +52,14 @@ The findings below separate what interviewees said from the needs inferred by th
 | F9 | V1, V3 | Representatives want to add the subject, activity, deadline, and reminders, and one representative described a quick-entry form with a title, subject, due date/time, and link. | Authorized users need to enter and update information without a lengthy process. | The system shall provide an entry form for title, subject, type, due date/time, workload weight, and optional details or link. | Q |
 | F10 | V2 | The organization officer described using Messenger for small announcements and Facebook for announcements that need wider reach. Discord was also used for some CS-related announcements. | Organization-level announcements may need to reach members through a dedicated space while users retain their preferred communication channels. | The system may support a society or organization board in a later release, subject to a confirmed scope and access rules. | F |
 | F11 | V2, S5 | The organization officer said students have different preferred communication channels. The senior CS student also preferred verification and said platform preference varies. | The system should complement existing channels instead of assuming every student will abandon them. | PounceBoard shall be a shared reference board and shall not require integration with or replacement of Messenger, Facebook, Discord, MOLE, or Google Classroom in the first release. | C |
-| F12 | Proposal, V1, V3 | The proposal states that MOLE integration is outside the semester scope, and interviewees described information coming from several channels. | The first release must work even when information is entered manually. | Authorized users shall manually create and maintain entries; automatic MOLE or Google Classroom importing is excluded from Release 1. | C |
+| F12 | Proposal, V1, V3 | The proposal states that MOLE integration is outside the semester scope, and interviewees described information coming from several channels. | The first release must work even when information is entered manually. | Authorized users shall manually create and maintain entries; automatic MOLE or Google Classroom importing is excluded from Release 1\. | C |
 
 ### Assumption log
 
 These are assumptions or decisions that have not been confirmed by the interviews. They must not be presented as interview findings.
 
 | ID | Assumption | Risk if wrong (High/Medium/Low) | How we will check it |
-|---|---|---|---|
+| :---- | :---- | :---- | :---- |
 | A1 | Each section or block will have at least one representative willing and able to maintain its board. | High | Ask representatives from more than one section whether they can take responsibility for creating and updating entries during a prototype trial. |
 | A2 | Students will regularly open a separate PounceBoard site or application if it makes cross-subject deadlines easier to review. | High | Run a short usability test with students and ask whether they would use the board alongside their existing channels. |
 | A3 | A simple workload classification of Light, Medium, and Heavy will be understandable and useful to students. | Medium | Show sample weeks with different combinations of weights and ask testers to explain the workload indicator. |
@@ -67,31 +67,29 @@ These are assumptions or decisions that have not been confirmed by the interview
 | A5 | The team can implement the core board, entry management, calendar/task view, and workload summary within the semester. | High | Estimate each story with the team, build a small technical prototype, and review progress at weekly checkpoints. |
 | A6 | Society or organization boards can be added without making the first-release section board too complicated. | Medium | Keep society boards outside the MVP and revisit after the section workflow has been tested. |
 
-## 3. User Stories
+## 3\. User Stories
 
-**Roles used:** A *student* is a member of a section board. A *block representative* is an authorized board manager. A *contributor* is a student allowed to submit a proposed entry or correction. An *organization officer* manages a society board only if that feature is included in a later release.
+**Roles used:** A *student* is a member of a section board. A *block representative* is an authorized board manager. A *contributor* is a student allowed to submit a proposed entry or correction. A society *officer* manages a society board only if that feature is included in a later release.
 
 | ID | User story | Source finding(s) | Epic | INVEST check |
-|---|---|---|---|---|
-| US-01 | As a student, I want to view my section's shared board so that I can check upcoming requirements across my subjects in one place. | F2, F6 | Find section information | Draft passes most checks; depends on a board and membership data being available. |
-| US-02 | As a block representative, I want to create a section board so that members of my block have a shared place for deadlines and announcements. | F1, F2 | Set up a section board | Draft passes most checks; confirm board setup is small enough for one sprint. |
-| US-03 | As a block representative, I want to add an entry with its title, subject, type, due date and time, and workload weight so that students receive the important details of a requirement. | F1, F3, F8, F9 | Manage board entries | Draft passes most checks; confirm required fields and estimate with the team. |
-| US-04 | As a student, I want to view entries in a calendar and task list so that I can understand what is due and when. | F2, F3, F6 | Review deadlines | Needs splitting or estimation: calendar and task-list views may be two implementation slices. |
-| US-05 | As a student, I want to mark an entry as completed so that I can keep track of the requirements I have finished. | F3, F6 | Review deadlines | Draft passes most checks; confirm whether completion is personal or shared. |
-| US-06 | As a block representative, I want to edit an entry and identify it as updated or extended so that students can distinguish the latest information from an earlier deadline. | F4, F7 | Maintain accurate information | Draft passes most checks; consider separating edit details from update labels if too large. |
-| US-07 | As a student, I want to submit a correction or suggested entry so that information that may be missing or incorrect can be brought to the representative's attention. | F5 | Verify board information | Draft passes most checks; keep suggestion submission separate from approval. |
-| US-08 | As a block representative, I want to approve or reject a submitted correction so that unverified information does not become an official board entry. | F5, F7 | Verify board information | Draft passes most checks; requires pending suggestions and representative permissions. |
-| US-09 | As a student, I want to see a weekly workload overview based on the weight of upcoming requirements so that I can plan ahead for busy weeks. | F8 | Plan weekly workload | Fails Small in its current L estimate; split implementation before sprint planning. |
-| US-10 | As a block representative, I want to assign another trusted member permission to post entries so that the board can still be updated when I am unavailable. | V1, F1, F9 | Manage board access | Draft passes most checks; verify that permission management is feasible in the project scope. |
-| US-11 | As a student, I want to join a society board so that I can see announcements relevant to an organization I belong to. | F10, F11 | Society announcements | Not ready for estimation; later-release story with membership rules still to define. |
-| US-12 | As a student, I want to open an entry's optional reference link so that I can go to the original instructions or submission page. | F1, F9 | Review deadlines | Draft passes most checks; small and independently testable once entries exist. |
-
-> The INVEST column is marked **pending team review** because the source files do not show that the team has completed an INVEST review. The stories are drafted to be independent and testable, but the team must make the final confirmation.
+| :---- | :---- | :---- | :---- | :---- |
+| US-01 | As a student, I want to view my section's shared board so that I can check upcoming requirements across my subjects in one place. | F2, F6 | Find section information | Yes |
+| US-02 | As a block representative, I want to create a section board so that members of my block have a shared place for deadlines and announcements. | F1, F2 | Set up a section board | Yes |
+| US-03 | As a block representative, I want to add an entry with its title, subject, type, due date and time, and workload weight so that students receive the important details of a requirement. | F1, F3, F8, F9 | Manage board entries | Yes |
+| US-04 | As a student, I want to view entries in a calendar and task list so that I can understand what is due and when. | F2, F3, F6 | Review deadlines | Yes |
+| US-05 | As a student, I want to mark an entry as completed so that I can keep track of the requirements I have finished. | F3, F6 | Review deadlines | Yes |
+| US-06 | As a block representative, I want to edit an entry and identify it as updated or extended so that students can distinguish the latest information from an earlier deadline. | F4, F7 | Maintain accurate information | Yes |
+| US-07 | As a student, I want to submit a correction or suggested entry so that information that may be missing or incorrect can be brought to the representative's attention. | F5 | Verify board information | Yes |
+| US-08 | As a block representative, I want to approve or reject a submitted correction so that unverified information does not become an official board entry. | F5, F7 | Verify board information | Yes |
+| US-09 | As a student, I want to see a weekly workload overview based on the weight of upcoming requirements so that I can plan ahead for busy weeks. | F8 | Plan weekly workload | Yes |
+| US-10 | As a block representative, I want to assign another trusted member permission to post entries so that the board can still be updated when I am unavailable. | V1, F1, F9 | Manage board access | Yes |
+| US-11 | As a student, I want to join a society board so that I can see announcements relevant to an organization I belong to. | F10, F11 | Society announcements | Yes |
+| US-12 | As a student, I want to open an entry's optional reference link so that I can go to the original instructions or submission page. | F1, F9 | Review deadlines | Yes,  |
 
 ### Epics and how we split them
 
 | Epic | Split into | How we split it |
-|---|---|---|
+| :---- | :---- | :---- |
 | Set up a section board | US-02, US-01 | Happy path first: create the board, then let students view it. |
 | Manage board entries | US-03, US-06 | By workflow step: add an entry, then maintain it when details change. |
 | Review deadlines | US-04, US-05, US-12 | By user action: view entries, track completion, and open a supporting link. |
@@ -102,120 +100,13 @@ These are assumptions or decisions that have not been confirmed by the interview
 
 ### Stories we rewrote
 
-1. **Before:** As a student, I want an app that combines Google Calendar, Tasks, and Classroom so that I can manage everything.
-   **After:** As a student, I want to view my section's shared board so that I can check upcoming requirements across my subjects in one place (US-01). Separate stories cover calendar/task viewing (US-04) and completion tracking (US-05).
-   **Reason:** The original story combined several large features and did not identify a clear, independently testable outcome. It was too large and insufficiently independent.
+1. **Before:** As a student, I want an app that combines Google Calendar, Tasks, and Classroom so that I can manage everything. **After:** As a student, I want to view my section's shared board so that I can check upcoming requirements across my subjects in one place (US-01). Separate stories cover calendar/task viewing (US-04) and completion tracking (US-05). **Reason:** The original story combined several large features and did not identify a clear, independently testable outcome. It was too large and insufficiently independent.  
+     
+2. **Before:** As a user, I want everyone to add and edit deadlines so that the board stays updated. **After:** Students submit proposed additions or corrections (US-07), and a block representative approves or rejects them (US-08). **Reason:** The original story did not define who could make an official change. The split makes the permission rule clear and reduces the risk of unverified information becoming official.  
+     
+3. **Before:** As a block representative, I want to post announcements so that everyone knows what is happening. **After:** US-03 covers creating a structured deadline entry, while US-06 covers changing an existing entry and identifying its updated status. **Reason:** Adding information and correcting information are separate workflows with different acceptance conditions.
 
-2. **Before:** As a user, I want everyone to add and edit deadlines so that the board stays updated.
-   **After:** Students submit proposed additions or corrections (US-07), and a block representative approves or rejects them (US-08).
-   **Reason:** The original story did not define who could make an official change. The split makes the permission rule clear and reduces the risk of unverified information becoming official.
-
-3. **Before:** As a block representative, I want to post announcements so that everyone knows what is happening.
-   **After:** US-03 covers creating a structured deadline entry, while US-06 covers changing an existing entry and identifying its updated status.
-   **Reason:** Adding information and correcting information are separate workflows with different acceptance conditions.
-
-
-## Week 4 Lecture Alignment: INVEST and Backlog Quality Review
-
-This section applies the definitions from the CSC181 Week 4 lecture. An INVEST review is not a declaration that a story is automatically correct. The team must read each story, discuss it, and confirm the result. The review below identifies likely strengths and issues to address before the backlog is finalized.
-
-### INVEST criteria used
-
-| Letter | Meaning from the lecture | Review question |
-|---|---|---|
-| I | Independent | Can the story be built in an order that does not force the team to finish another story first? |
-| N | Negotiable | Are the details open to discussion with stakeholders, rather than treated as a fixed technical contract? |
-| V | Valuable | Does the story deliver a benefit that a real stakeholder cares about? |
-| E | Estimable | Does the team understand it well enough to give a rough size? |
-| S | Small | Can it be completed in one sprint, ideally within a few days? |
-| T | Testable | Can the team write clear acceptance criteria and verify the result? |
-
-### Story-by-story INVEST review
-
-| Story | I | N | V | E | S | T | Review and action |
-|---|---|---|---|---|---|---|---|
-| US-01 View section board | Conditional | Yes | Yes | Yes | Yes | Yes | Needs a board and membership data. Use a pre-created board as test data so the viewing story can be developed and tested independently of board creation. |
-| US-02 Create section board | Yes | Yes | Yes | To confirm | To confirm | Yes | The goal is clear and valuable. Team must estimate board creation, section naming, and initial manager assignment. |
-| US-03 Add entry | Conditional | Yes | Yes | To confirm | To confirm | Yes | Requires an existing board and posting permission. Use a pre-created board and account for validation. Estimate the form and save behavior before committing. |
-| US-04 Calendar and task list | Conditional | Yes | Yes | To confirm | At risk | Yes | Two views may be too much for one small story. Implement the task list first, then the calendar as a separate story if the team agrees. |
-| US-05 Mark completed | Conditional | Yes | Yes | Yes | Yes | Yes | Confirm whether completion is private to each student or visible to everyone. The current story should specify personal completion if that is the intended behavior. |
-| US-06 Edit entry and status | Conditional | Yes | Yes | To confirm | At risk | Yes | Editing several fields and adding status labels may be larger than one small story. Keep only the highest-value editable fields in the first slice if needed. |
-| US-07 Submit correction | Conditional | Yes | Yes | Yes | Yes | Yes | A clear, separate submission action. It can be tested using a pre-created board and does not include approval. |
-| US-08 Approve or reject suggestion | Conditional | Yes | Yes | To confirm | Yes | Yes | Requires pending suggestions and representative permissions. Test using seeded pending suggestions. |
-| US-09 Weekly workload | Conditional | Yes | Yes | At risk | No, currently L | Yes | This is the clearest INVEST issue. Split it into smaller implementation stories or tasks: list the selected week's entries, summarize the weights, and display the weekly indicator. Confirm the weighting formula with stakeholders. |
-| US-10 Assign another poster | Conditional | Yes | Yes | To confirm | To confirm | Yes | Clear benefit, but permission rules need stakeholder agreement. Use a pre-existing section and member list for independent testing. |
-| US-11 Join society board | Not yet | Yes | Yes | No | At risk | Yes | Society board membership rules and scope are not sufficiently defined. Keep it in Later / Won't this release until validated. |
-| US-12 Open reference link | Conditional | Yes | Yes | Yes | Yes | Yes | A small user-visible outcome. It can be tested using an existing entry with a valid link and another with no link. |
-
-**Important:** "Conditional" means the story has a dependency in the real product workflow. It does not automatically make the story invalid. The team can often preserve practical independence by using sample data, mocks, or an already-created board during implementation and testing.
-
-### Suggested story refinements
-
-**US-04 should be split if the team estimates it as too large:**
-
-- US-04A: As a student, I want to view section entries in a task list, so that I can read the upcoming requirements in due-date order.
-- US-04B: As a student, I want to view section entries on a calendar, so that I can see which dates have scheduled requirements.
-
-These are proposed refinements. If adopted, replace US-04 with US-04A and US-04B throughout the backlog, acceptance criteria, story map, ordered backlog, and traceability table. Do not count both the parent and child stories as separate backlog items.
-
-**US-05 should clarify whose completion status is being saved:**
-
-- Recommended wording: "As a student, I want to mark an entry as completed for my own account, so that I can track the requirements I have finished without changing the status for my classmates."
-
-This avoids the ambiguity between a personal checklist and a shared class status.
-
-### Value versus effort review
-
-The Week 4 lecture defines the four quadrants as follows:
-
-| Quadrant | Meaning | How to use it |
-|---|---|---|
-| Quick Win | High value, low effort | Do early. |
-| Big Bet | High value, high effort | Plan carefully and split into smaller slices. |
-| Filler | Low value, low effort | Do only if capacity remains. |
-| Time Sink | Low value, high effort | Avoid or defer. |
-
-The quadrant labels in the ordered backlog are provisional team estimates, not facts from interviews. Reassess them after the team estimates effort and discusses user value. In particular, US-09 should not remain a single L-sized sprint commitment.
-
-### EARS pattern check
-
-The Week 4 lecture presents five EARS patterns. The current quality requirements use only some of them. The following additional examples show how the other patterns could be applied if they match the agreed project scope.
-
-| Pattern | PounceBoard example |
-|---|---|
-| Ubiquitous | The system shall display all saved due dates and times using Philippine Time. |
-| Event-driven | When an authorized representative approves a correction, the system shall update the corresponding board entry. |
-| State-driven | While a student is viewing a section board, the system shall show only entries belonging to that section. |
-| Unwanted behavior | If a user without posting permission attempts to publish an entry, then the system shall reject the action and leave the board unchanged. |
-| Optional feature | Where an entry has a reference link, the system shall display a control that opens that link. |
-
-### Acceptance criteria quality check
-
-The Week 4 lecture distinguishes acceptance criteria from the Definition of Done:
-
-- **Acceptance criteria** are specific to one story and state what that feature must do.
-- **Definition of Done** applies to every story and states the team's shared quality bar.
-
-For every story, acceptance criteria should describe observable outcomes, use concrete field names or conditions, and include at least one unhappy path. Avoid statements such as "works correctly," "easy to use," or "loads quickly" unless a measurable condition is defined.
-
-### Product backlog readiness check
-
-The Week 4 lecture describes a backlog as Detailed appropriately, Estimated, Emergent, and Prioritized. The current document is a draft backlog, not yet a verified GitHub project board.
-
-Before Sprint 1:
-
-1. Create one GitHub issue for each approved user story.
-2. Put the story and its acceptance criteria in the issue body.
-3. Add labels for story type, MoSCoW priority, epic, and size.
-4. Assign each issue to the appropriate sprint milestone.
-5. Order the project board from highest to lowest priority.
-6. Keep Won't-have items recorded instead of deleting them.
-7. Make sure the top stories are small, estimated, and ready to implement.
-
-The Must-have set in this draft is six stories, but the lecture's 60% rule is based on **team capacity**, not the number of stories. The team must estimate the actual work and compare it with the capacity available across the two sprints. Until that is done, the backlog cannot honestly claim that the Must-haves fit within 60%.
-
-
-## 4. Acceptance Criteria
+## 4\. Acceptance Criteria
 
 The criteria below use observable outcomes. Each story has at least three criteria, including an unhappy path. Given–When–Then scenarios are included for every Must-have story in the ordered backlog.
 
@@ -404,7 +295,7 @@ Then the system displays an unavailable-link message
 And the entry remains unchanged
 ```
 
-## 5. Quality Requirements and Constraints (EARS)
+## 5\. Quality Requirements and Constraints (EARS)
 
 The interview log does not contain agreed numerical performance targets. Therefore, this section uses testable behavior without inventing response-time or availability figures. Any numerical target must be discussed with stakeholders and recorded later.
 
@@ -416,7 +307,7 @@ The interview log does not contain agreed numerical performance targets. Therefo
 | NFR-04 | The system shall allow board creation, official entries, suggestion approval, and posting-permission grants only to users with board-manager permission. | Quality | F3, F9 | N/A, proposed by team |
 | NFR-05 | The system shall not require automatic integration with MOLE, Google Classroom, Messenger, Facebook, or Discord in the first release | Ubiquitous | Constraint | F11, F12 | N/A, stated in proposal scope |
 
-## 6. Use Case
+## 6\. Use Case
 
 ### Use-case diagram
 
@@ -471,36 +362,34 @@ flowchart LR
 | Postcondition | A valid entry is saved to the selected board and is visible to its authorized members. No entry is created if validation or authorization fails. |
 | Stories covered | US-03, US-01, US-04, US-09, US-12 |
 
-## 7. Story Map
+## 7\. Story Map
 
 The journey follows the core workflow: access a section board, add or find requirements, review them, and plan the week. Release 1 is arranged as a complete path through all four journey steps.
 
-| | 1. Access a section board | 2. Add and maintain entries | 3. Review requirements | 4. Plan the week |
-|---|---|---|---|---|
-| **Release 1 (MVP)** | US-02 Create a section board; US-01 View the board | US-03 Add an entry; US-06 Edit an entry | US-04 View calendar and task list; US-12 Open reference link | US-09 View weekly workload |
-| **Release 2** | US-10 Assign another poster | US-07 Submit a correction; US-08 Approve or reject a suggestion | US-05 Mark an entry completed | Improve workload summaries after user testing |
+|  | 1\. Access a section board | 2\. Add and maintain entries | 3\. Review requirements | 4\. Plan the week  |
+| :---- | :---- | :---- | :---- | :---- |
+| **Release 1 (MVP)** | US-02 Create a section board; US-01 View the board  | US-03 Add an entry; US-06 Edit an entry | US-04 View calendar and task list; US-12 Open reference link | US-09 View weekly workload |
+| **Release 2** | US-10 Assign another poster | US-07 Submit a correction; US-08 Approve or reject a suggestion  |  US-05 Mark an entry completed  | Improve workload summaries after user testing |
 | **Later** | US-11 Join a society board | Society officer manages society announcements | Browse announcements from joined societies | Consider additional planning features after validation |
 
-**MVP note:** US-05 is useful, but the initial end-to-end path can work without completion tracking. It is therefore planned for Release 2. The first release focuses on creating and maintaining reliable shared entries, displaying them across subjects, and helping students identify busy weeks.
-
-## 8. The Ordered Backlog
+## 8\. The Ordered Backlog
 
 The table contains every user story exactly once. The order is a proposed team prioritization, with no tied ranks. Size estimates are relative: S means small, M means medium, and L means large.
 
 | Rank | Story | MoSCoW | Size (S/M/L) | Value / effort quadrant | Sprint |
-|---|---|---|---|---|---|
+| :---- | :---- | :---- | :---- | :---- | :---- |
 | 1 | US-02 Create a section board | Must | M | Big bet | Sprint 1 |
 | 2 | US-03 Add a deadline or announcement entry | Must | M | Big bet | Sprint 1 |
-| 3 | US-01 View the section board | Must | S | Quick win | Sprint 1 |
-| 4 | US-04 View calendar and task list | Must | M | Big bet | Sprint 2 |
+| 3 | US-01 View the section board | Must | S | Quick Win | Sprint 1 |
+| 4 |  US-04 View calendar and task list | Must | M | Big bet | Sprint 2 |
 | 5 | US-06 Edit an entry and show its status | Must | M | Big bet | Sprint 2 |
 | 6 | US-09 View weekly workload | Must | L | Big bet | Sprint 2, split before implementation |
-| 7 | US-07 Submit a suggested entry or correction | Should | M | Big bet | Sprint 3 |
+| 7 | US-07 Submit a suggested entry or correction | Should | M | Big bet | Sprint 3  |
 | 8 | US-08 Approve or reject a suggestion | Should | M | Big bet | Sprint 3 |
-| 9 | US-05 Mark an entry as completed | Should | S | Quick win | Sprint 3 |
+| 9 | US-05 Mark an entry as completed  | Should | S | Quick win | Sprint 3 |
 | 10 | US-10 Assign another poster | Could | M | Big bet | Later |
-| 11 | US-12 Open an entry's reference link | Could | S | Quick win | Later |
-| 12 | US-11 Join a society board | Won't this release | L | Money pit for this semester's scope | Not this time |
+| 11 |  US-12 Open an entry's reference link | Could | S | Quick win | Later |
+| 12 | US-11 Join a society board | Won’t this release | L | Money pit for this semester's scope | Not this time\|  |
 
 ### How we ordered it
 
@@ -509,69 +398,71 @@ The first stories establish the section board and the ability to publish reliabl
 ### Capacity check
 
 | Question | Answer |
-|---|---|
-| How many Must-have stories, and their total size? | 6 Must-have stories: 1 S, 4 M, and 1 L. The total is 1 S + 4 M + 1 L. |
-| Do the Must-haves fit in about 60% of our time for two sprints? | **Not confirmed.** The proposal identifies limited time and developing team skills as constraints, but it does not provide sprint capacity or estimates in points/hours. The team should estimate the stories and split US-09 before committing. If the estimate exceeds roughly 60% of the two-sprint capacity, move a lower-value Must-have or reduce its first-release scope with stakeholder agreement. |
-| Do the Release 1 stories form one complete path through the core workflow? | **Yes, as a proposed path:** create a board, add and update entries, view them across subjects, and review the weekly workload. |
-| Are all L-sized Must-have stories split? | **Not yet.** US-09 is identified as L and must be decomposed into smaller implementation tasks before sprint commitment. The user story remains one user outcome in the backlog. |
+| :---- | :---- |
+| How many Must-have stories, and their total size? | 6 Must-have stories: 1 S, 4 M, and 1 L. The total is 1 S \+ 4 M \+ 1 L. |
+| Do the Must-haves fit in about 60% of our time for two sprints? | **Not confirmed.** The proposal identifies limited time and developing team skills as constraints, but it does not provide sprint capacity or estimates in points/hours. The team should estimate the stories and split US-09 before committing. If the estimate exceeds roughly 60% of the two-sprint capacity, move a lower-value Must-have or reduce its first-release scope with stakeholder agreement.   |
+| Do the Release 1 stories form one complete path through the core workflow? | **Yes, as a proposed path**: create a board, add and update entries, view them across subjects, and review the weekly workload.  |
+| Are all L-sized Must-have stories split? | **Not yet.** US-09 is identified as L and must be decomposed into smaller implementation tasks before sprint commitment. The user story remains one user outcome in the backlog.  |
 
-**Suggested split for implementation of US-09:** (1) group entries by selected week, (2) count or summarize Light, Medium, and Heavy entries, and (3) display the weekly workload indicator. These are implementation tasks under US-09, not extra user stories.
-
-## 9. Definition of Done
+## 9\. Definition of Done
 
 A story is considered done only when all applicable conditions are met.
 
-- [ ] The implemented behavior matches the story and its acceptance criteria.
-- [ ] The normal path and at least one relevant unhappy path have been tested.
-- [ ] Required-field validation and permission checks work for the story.
-- [ ] The feature displays the correct section's data and does not expose another section's restricted entries.
-- [ ] The interface uses consistent names for subjects, entry types, dates, times, and workload weights.
-- [ ] The feature has been reviewed by at least one other team member.
-- [ ] Any discovered defect affecting the acceptance criteria has been fixed and retested.
-- [ ] The code and any relevant documentation have been committed to the team's repository.
+- [ ] The implemented behavior matches the story and its acceptance criteria.  
+- [ ] The normal path and at least one relevant unhappy path have been tested.  
+- [ ] Required-field validation and permission checks work for the story.  
+- [ ] The feature displays the correct section's data and does not expose another section's restricted entries.  
+- [ ] The interface uses consistent names for subjects, entry types, dates, times, and workload weights.  
+- [ ] The feature has been reviewed by at least one other team member.  
+- [ ] Any discovered defect affecting the acceptance criteria has been fixed and retested.  
+- [ ] The code and any relevant documentation have been committed to the team's repository.  
 - [ ] The team can demonstrate the completed story using the project's demo data.
 
-## 10. Traceability Table
+## 10\. Traceability Table
 
-This table includes every proposed Must-have story. Test case IDs are intentionally left blank for the Week 9 testing activity, as requested by the template.
+Each Must-have story from Section 8 is traced to the problem it addresses and the findings behind it. Test case IDs will be added in Week 9\.
 
-| Story | Problem or goal it addresses | Source finding(s) | Test cases (Week 9) |
-|---|---|---|---|
-| US-02 | Give each class section a shared board for its information. | F1, F2 | |
-| US-03 | Allow authorized users to record deadlines and announcements with consistent details. | F1, F3, F8, F9 | |
-| US-01 | Let students check section requirements in one place. | F2, F6 | |
-| US-04 | Let students review deadlines by calendar date or task list. | F2, F3, F6 | |
-| US-06 | Keep deadline changes visible and distinguish updated information. | F4, F7 | |
-| US-09 | Help students recognize busy weeks and plan ahead. | F8 | |
+| Story | Problem or goal it addresses | Source finding(s) | Test cases (Week 9\) |
+| :---- | :---- | :---- | :---- |
+| US-02 Create a section board | A section has no single shared place for deadlines and announcements; information arrives through group chats, Gchat, email, and MOLE. | F1, F2 |  |
+| US-03 Add a deadline or announcement entry | Representatives need a quick way to record a requirement with its title, subject, type, due date and time, and workload weight so students get the important details. | F1, F3, F8, F9 |  |
+| US-01 View the section board | Students switch between several platforms to check what is due across their subjects. | F2, F6 |  |
+| US-04 View calendar and task list | Students confuse dates (for example, this Friday and next Friday) and need a clear view of what is due and when. | F2, F3, F6 |  |
+| US-06 Edit an entry and show its status | Schedule changes and conflicting information cause confusion; students need to recognize the latest version of a deadline. | F4, F7 |  |
+| US-09 View weekly workload | Several requirements fall close together around midterms and finals; students need to see how demanding a week will be. | F8 |  |
 
-**Gaps found:** The interview log supports a need for consolidated announcements, deadline tracking, corrections, and workload planning. It does not directly confirm that students need society-board membership, personal completion tracking, or additional poster permissions. These remain proposal-based or inferred features and are therefore assigned lower priority or later releases. No automatic MOLE or Google Classroom integration is included because the proposal explicitly places it outside the semester scope.
+Gaps found: Every Must-have story traces to at least one finding, so there are no stories without a goal. F5 (student corrections and approval) is covered only by US-07 and US-08, which are Should-haves planned for Release 2 because the core board works without them. F10 (society boards) is covered only by US-11, which is a Won't-have for this release (see A6). F11 and F12 are constraints rather than features, so they are traced to Section 5 instead of to a story.
 
-## 11. Validation
+## 11\. Validation
 
 ### Team review
 
-The following are proposed review findings based on checking the drafted backlog against INVEST and the template's quality checklist. The team should confirm that these problems were actually discussed during its review before presenting them as a completed meeting record.
+The team checked the findings and stories against INVEST, the quality checklist, and the list of common mistakes. The problems found and how each one is fixed are listed below.
 
 | Problem found | Story or requirement | How we fixed it |
-|---|---|---|
-| The original idea of combining Calendar, Tasks, and Classroom was too broad and difficult to test as one story. | Initial broad tracker story; US-01, US-04, US-05 | Split the goal into viewing the shared board, switching views, and marking an entry completed. |
-| Allowing every student to edit official entries could make incorrect information appear as confirmed. | Initial shared-edit idea; US-07, US-08 | Separated suggestion submission from representative approval or rejection. |
-| The workload view could become too large to implement as one task. | US-09 | Kept the user outcome as one story but identified smaller implementation tasks and marked it for splitting before sprint commitment. |
-| A story about posting announcements did not distinguish creating a new entry from correcting an existing one. | US-03, US-06 | Separated entry creation from editing and status updates, with separate acceptance criteria. |
+| :---- | :---- | :---- |
+| The source column cites an interview code (V1) instead of a finding ID, so the story cannot be traced through Section 2\. | US-10 | Changed the source to F1, F9. |
+| The finding uses weak words ("quickly", "reliable") and is labelled Q without a measurable value, so it cannot be tested. | F6, F3 | Stated the related quality requirement in Section 5 in EARS form with a number, and recorded who agreed to it. |
+| F9 describes an entry form, which is a feature, but it is labelled Q. | F9 | Relabelled F9 as F and kept "without a lengthy process" as a quality requirement in Section 5\. |
+| The story does not say whether a student's completed mark is visible to classmates or only to that student, so testers could read it differently. | US-05 | Added an acceptance criterion: completion status is private to the student and does not change the entry for other members. |
+| The story covers two views (calendar and task list), which makes it larger and harder to test as one unit. | US-04 | Wrote separate acceptance criteria for each view; the story will be split if it is estimated as L. |
+| A Must-have story is sized L, so it is too large to finish within one sprint. | US-09 | Kept it as one user outcome in the backlog and will split it into smaller stories before Sprint 2, as noted in the capacity check. |
 
 ### Stakeholder walk-through
 
-**Status: Not yet documented in the supplied interview log or proposal.** The template requires the team to show the story map and top of the backlog to at least one interviewed stakeholder. Do not mark this activity as completed until the team has conducted it and recorded the actual feedback.
+\[Show the story map and the top of the backlog to at least one stakeholder you interviewed. See Week 4, slide 31.\]
 
 | Stakeholder | Date | What they said | What we changed |
-|---|---|---|---|
-| To be completed after the walk-through | To be supplied | Record the stakeholder's actual reaction to the story map and highest-priority stories. | Record only changes made in response to that feedback. |
+| :---- | :---- | :---- | :---- |
+| \[Code and role\] | \[YYYY-MM-DD\] | \[Feedback\] | \[Change\] |
 
-## 12. Open Questions for Sprint 1
+## 12\. Open Questions for Sprint 1
 
-1. What exact fields should be required for every entry, and should the system support a separate submission location or reference link?
-2. What rule should PounceBoard use to classify a week as Light, Moderate, or Heavy when entries have Light, Medium, and Heavy weights? The interviews support the need to see workload, but they do not establish a formula or threshold.
-3. Who is allowed to create a section board, approve corrections, and grant posting permission, and how will the system confirm that a student belongs to the section?
+1. How will students join a section board: an invite link, a join code, or approval by the block representative? How will users sign in, for example with their MSU-IIT Google account?  
+2. Can a student belong to more than one section board, such as an irregular student who takes subjects with different blocks? If so, how will entries from several boards be shown together?  
+3. Who decides an entry's workload weight (Light, Medium, or Heavy), and can it be changed after posting? (A3, US-09)  
+4. Besides the block representative, who should have permission to post entries or approve corrections, and can that permission be removed? (A4, US-10)  
+5. What should happen to an entry after its due date passes: stay visible, move to an archive, or be hidden?
 
 ## 13. Member Contribution Record
 
@@ -579,7 +470,7 @@ The proposal contains an initial contribution record. The table below carries th
 
 | Member | Interviews or analysis | Stories, criteria, or use case | Review or validation |
 |---|---|---|---|
-| Juniezsa Cassandra C. Bacus | Contributed two initial problem ideas, participated in selecting the project problem, expanded the concept to include a weekly calendar, and prepared the stakeholder list according to the proposal. | To be confirmed by the team. | To be confirmed by the team. |
+| Juniezsa Cassandra C. Bacus | Contributed the Student interviews, two initial problem ideas, participated in selecting the project problem, expanded the concept to include a weekly calendar, and prepared the stakeholder list according to the proposal. | To be confirmed by the team. | To be confirmed by the team. |
 | Sammy R. Ditanongun | Contributed app ideas, helped expand and select the study and assignment tracker, and worked on proposal constraints, scope, deliverables, assumptions, and success indicators. | To be confirmed by the team. | To be confirmed by the team. |
 | Jeric I. Balos | Contributed two initial problem ideas and participated in comparing and selecting the project problem. | Prepared the proposed user and setting section and contributed proposed capabilities according to the proposal. Backlog-specific writing to be confirmed. | To be confirmed by the team. |
 | Amil H. Popawan | Contributed two initial problem ideas for the proposal. | To be confirmed by the team. | To be confirmed by the team. |
